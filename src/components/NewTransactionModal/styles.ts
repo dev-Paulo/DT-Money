@@ -70,7 +70,7 @@ export const CloseButton = styled(Dialog.Close)`
 
 export const TransactionType = styled(RadioGroup.Root)`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
   gap: 1rem;
   margin-top: 0.5rem;
 `;
@@ -106,7 +106,8 @@ export const TransactionTypeButton = styled(
     }
 
     &[data-state='checked'] {
-        color: ${props => props.theme.white};        
+        color: ${props => props.theme.white};
+        
         background: ${ props => props.variant == "income" ? props.theme["green-500"] : props.theme["red-500"]};
 
         svg {

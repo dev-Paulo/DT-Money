@@ -4,9 +4,9 @@ export const SummaryContainer = styled.section`
     width: 100%;
     max-width: 1120px;
     margin: 0 auto;
-    paddding: 0 1.5rem;
+    padding: 0 1.5rem;
     display: grid;
-    grid-template-colums: repeat(3, 1fr);     
+    grid-template-columns: repeat(3, minmax(240px, 1fr));    
     gap: 2rem;
     margin-top: -5rem;
 `;
