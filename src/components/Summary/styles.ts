@@ -6,7 +6,8 @@ export const SummaryContainer = styled.section`
     margin: 0 auto;
     padding: 0 1.5rem;
     display: grid;
-    grid-template-columns: repeat(3, minmax(240px, 1fr));    
+    grid-template-columns: repeat(3, minmax(240px, 1fr)); 
+      
     gap: 2rem;
     margin-top: -5rem;
 `;
