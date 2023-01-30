@@ -55,6 +55,30 @@
       "type": "outcome",
       "createdAt": "2023-01-29T23:06:08.387Z",
       "id": 7
+    },
+    {
+      "description": "Café com leite",
+      "price": 10,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-01-30T13:32:40.805Z",
+      "id": 8
+    },
+    {
+      "description": "Ads Amazon",
+      "price": 12000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-01-30T13:37:51.510Z",
+      "id": 9
+    },
+    {
+      "description": "Pastel",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-01-30T13:40:58.528Z",
+      "id": 10
     }
   ]
 }
